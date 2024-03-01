@@ -1,0 +1,35 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-rubik: Rubik;
+  --font-size-21xl: 2.22rem;
+  --font-size-5xl: 1.33rem;
+  --font-size-13xl: 1.78rem;
+  --font-size-6xl: 1.39rem;
+  --font-size-xl: 1.11rem;
+  --font-size-11xl: 1.67rem;
+  --color-white: #fff;
+  --color-gray: #201735;
+  --color-dimgray: #555;
+  --gap-7xs: .33rem;
+  --gap-31xl: 2.78rem;
+  --gap-6xl: 1.39rem;
+  --gap-12xl: 1.72rem;
+  --gap-mini: .83rem;
+  --padding-xl: 1.11rem;
+  --padding-58xl: 4.28rem;
+  --padding-11xs: .11rem;
+  --padding-8xs: .28rem;
+  --padding-14xl: 1.83rem;
+  --padding-5xs: .44rem;
+  --padding-17xl: 2rem;
+  --br-220xl: 239px;
+}
+/*# sourceMappingURL=index.689f5f05.css.map */

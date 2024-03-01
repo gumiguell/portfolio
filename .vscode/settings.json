@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "Curriculo HTML",
+    "id": "65034f6bc4ec2408de48a4d9",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "rem",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\miche\\OneDrive\\Documents\\gu\\portfolio\\src\\components",
+    "screensPath": "c:\\Users\\miche\\OneDrive\\Documents\\gu\\portfolio\\src\\pages"
+  }
+}

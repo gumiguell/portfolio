@@ -1,0 +1,866 @@
+.home {
+  width: 4.67rem;
+  height: 3.89rem;
+  position: relative;
+  line-height: 3.89rem;
+  display: inline-block;
+}
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0.83rem 0rem 0rem;
+}
+.about-me {
+  width: 7.78rem;
+  height: 3.89rem;
+  position: relative;
+  line-height: 3.89rem;
+  display: inline-block;
+  white-space: nowrap;
+}
+.about-me-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-17xl) 0rem 0rem;
+}
+.skills {
+  height: 3.89rem;
+  width: 4.28rem;
+  position: relative;
+  line-height: 3.89rem;
+  display: inline-block;
+}
+.contact {
+  height: 3.89rem;
+  width: 6.61rem;
+  position: relative;
+  line-height: 3.89rem;
+  display: inline-block;
+}
+.high {
+  flex: 1;
+  background-color: var(--color-gray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0rem 23var (--padding-11xs) 0.11rem 12.11rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 1.11rem;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}
+.high-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem var(--padding-58xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}
+.eu-desenho-icon {
+  position: absolute;
+  height: 100%;
+  top: 0rem;
+  bottom: 0rem;
+  left: 8.33rem;
+  border-radius: 116px;
+  max-height: 100%;
+  width: 11.83rem;
+  object-fit: cover;
+}
+.eu-real-icon {
+  position: absolute;
+  height: 100%;
+  top: 0rem;
+  bottom: 0rem;
+  left: 0rem;
+  border-radius: 104.5px;
+  max-height: 100%;
+  width: 11.89rem;
+  object-fit: cover;
+  z-index: 1;
+}
+.eudesenho {
+  height: 11.83rem;
+  width: 20.17rem;
+  position: relative;
+  min-width: 20.17rem;
+  max-width: 100%;
+}
+.gustavo-miguel {
+  margin: 0;
+  width: 43.83rem;
+  height: 3.89rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.89rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.rectangle {
+  align-self: stretch;
+  height: 1.39rem;
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--color-gray);
+}
+.other-data-structures {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0rem 0rem;
+  box-sizing: border-box;
+  min-width: 16.28rem;
+  max-width: 100%;
+}
+.systems-developer {
+  height: 1.39rem;
+  width: 22.5rem;
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.h-t-m-l-c-s-s-react-javascript {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.94rem;
+  max-width: 100%;
+}
+.linkedin-icon {
+  height: 2.06rem;
+  width: 2.06rem;
+  position: relative;
+  min-height: 2.06rem;
+}
+.github-icon {
+  height: 2.01rem;
+  width: 2.06rem;
+  position: relative;
+}
+.whatsapp-icon {
+  height: 2.06rem;
+  width: 2.06rem;
+  position: relative;
+  min-height: 2.06rem;
+  cursor: pointer;
+}
+.gmail-icon {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+}
+.cv-icon {
+  height: 1.99rem;
+  width: 1.83rem;
+  position: relative;
+  cursor: pointer;
+}
+.contact-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-11xs) 0rem 0rem;
+  gap: var(--gap-7xs);
+}
+.h-t-m-l-c-s-s-react-javascript-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+}
+.c-v-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem 0rem var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray);
+}
+.linkedin-github-whatsapp {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  max-width: 100%;
+}
+.gustavo-miguel-info-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0rem 0rem;
+  box-sizing: border-box;
+  min-width: 31.72rem;
+  max-width: 100%;
+}
+.eu-desenho-frame {
+  width: 70.67rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+}
+.eu-desenho-frame-wrapper {
+  width: 78.22rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0rem var(--padding-xl) 8rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 5rem;
+  color: var(--color-gray);
+  font-family: var(--font-rubik);
+}
+.about-me1 {
+  margin: 0;
+  height: 3.89rem;
+  width: 10.5rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.89rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.frameintermediatelevel-b {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-17xl) 0rem 0rem;
+}
+.frameaboutme1 {
+  height: 15.67rem;
+  width: 1.56rem;
+  position: relative;
+  border-radius: var(--br-220xl);
+  background-color: var(--color-gray);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.span {
+  color: var(--color-gray);
+}
+.english-course-intermediate {
+  margin: 0;
+}
+.michigan-valinhos {
+  margin: 0;
+  color: var(--color-gray);
+}
+.english-course-container {
+  height: 15.78rem;
+  width: 39.22rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.hi-im-gustavo {
+  height: 9.11rem;
+  width: 44.61rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -5.67rem;
+  right: -14.22rem;
+  display: inline-block;
+  text-align: center;
+  z-index: 1;
+}
+.text-english-course {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.frameeureal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0rem 0rem;
+  box-sizing: border-box;
+  min-width: 25.5rem;
+  max-width: 100%;
+}
+.my-current-professional {
+  margin-bottom: 0px;
+}
+.my-current-professional-goal-i {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-14xl);
+}
+.my-current-professional-container {
+  width: 26.61rem;
+  height: 12.44rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.text-intermediate-level-b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.56rem 0rem 0rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: right;
+}
+.framehomepage {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray);
+}
+.frameskills {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.61rem;
+  max-width: 100%;
+}
+.frameaboutme {
+  width: 72.89rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem 5rem 2.06rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray);
+  font-family: var(--font-rubik);
+}
+.portfolio-container {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 9.72rem;
+  bottom: 52.83rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 41%, #e4d9ff 58%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.portfolio-container1 {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 9.72rem;
+  bottom: 38.22rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 41%, #e4d9ff 58%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.portfolio-container2 {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 9.72rem;
+  bottom: 33.22rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 41%, #e4d9ff 58%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.portfolio-container3 {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 9.89rem;
+  bottom: 48rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 20.5%, #e4d9ff 35.5%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.portfolio-container4 {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 9.89rem;
+  bottom: 43.17rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 20.5%, #e4d9ff 35.5%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.skills1 {
+  margin: 0;
+  height: 3.89rem;
+  width: 5.94rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.89rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.frame-flutter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem 0rem 0.17rem;
+}
+.html-css-react-container {
+  align-self: stretch;
+  height: 27.89rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frame-typescript-child {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 2.11rem;
+  left: 0rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 41%, #e4d9ff 58%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frame-typescript-item {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 6.94rem;
+  left: 0rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 41%, #e4d9ff 58%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frame-typescript-inner {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 11.89rem;
+  left: 0rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 20.5%, #e4d9ff 35.5%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frame-div {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 9.56rem;
+  left: 0rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 20.5%, #e4d9ff 35.5%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frame-typescript-child1 {
+  width: 21.83rem;
+  height: 1.44rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 4.67rem;
+  left: 0rem;
+  border-radius: var(--br-220xl);
+  background: linear-gradient(90deg, #201735 20.5%, #e4d9ff 35.5%);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frame-typescript {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+}
+.java-c-python-container {
+  height: 27.89rem;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.outros-estruturas-de {
+  height: 1rem;
+  width: 58.56rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0.72rem;
+  left: -20.11rem;
+  font-size: 0.83rem;
+  display: inline-block;
+  text-align: left;
+  z-index: 3;
+}
+.frame-typescript1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  margin-left: -326px;
+  text-align: right;
+}
+.frame-python {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray);
+}
+.frame-java-script {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+}
+.frame-react {
+  width: 60.44rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-11xs) 0rem 0rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray);
+  font-family: var(--font-rubik);
+}
+.contact2 {
+  margin: 0;
+  height: 3.89rem;
+  width: 9.06rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.89rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-8xs) 0rem 0rem;
+}
+.linkedin-icon1 {
+  height: 2.06rem;
+  width: 2.06rem;
+  position: relative;
+  min-height: 2.06rem;
+  z-index: 1;
+}
+.github-icon1 {
+  height: 2.01rem;
+  width: 2.06rem;
+  position: relative;
+  z-index: 1;
+}
+.whatsapp-icon1 {
+  height: 2.06rem;
+  width: 2.06rem;
+  position: relative;
+  min-height: 2.06rem;
+  cursor: pointer;
+  z-index: 1;
+}
+.gmail-icon1 {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  z-index: 1;
+}
+.cv-icon1 {
+  height: 1.99rem;
+  width: 1.83rem;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.background-contact {
+  flex: 1;
+  background-color: var(--color-gray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4.5rem var(--padding-xl) 6.56rem 1.44rem;
+  box-sizing: border-box;
+  gap: 3.89rem;
+  max-width: 100%;
+}
+.contact1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}
+.portfolio {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7.61rem;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1100px) {
+  .eudesenho {
+    flex: 1;
+  }
+
+  .eu-desenho-frame {
+    flex-wrap: wrap;
+  }
+
+  .frame-react {
+    max-width: calc(100% - 2px);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .gustavo-miguel {
+    font-size: 2.5rem;
+    line-height: 2.33rem;
+  }
+
+  .h-t-m-l-c-s-s-react-javascript {
+    flex-wrap: wrap;
+  }
+
+  .about-me1 {
+    font-size: var(--font-size-13xl);
+    line-height: 3.11rem;
+  }
+
+  .skills1 {
+    font-size: var(--font-size-13xl);
+    line-height: 3.11rem;
+  }
+
+  .contact2 {
+    font-size: var(--font-size-13xl);
+    line-height: 3.11rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .high {
+    padding-left: 6.06rem;
+    padding-right: 6.44rem;
+    box-sizing: border-box;
+  }
+
+  .gustavo-miguel-info-box {
+    min-width: 100%;
+  }
+
+  .eu-desenho-frame {
+    gap: var(--gap-mini);
+  }
+
+  .frameeureal {
+    min-width: 100%;
+  }
+
+  .framehomepage {
+    gap: var(--gap-mini);
+  }
+
+  .frameskills {
+    gap: var(--gap-31xl);
+  }
+
+  .frameaboutme {
+    padding-bottom: 3.22rem;
+    box-sizing: border-box;
+  }
+
+  .frame-java-script {
+    gap: var(--gap-6xl);
+  }
+
+  .portfolio {
+    gap: 3.78rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .high {
+    display: none;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .eudesenho {
+    min-width: 100%;
+  }
+
+  .gustavo-miguel {
+    font-size: 1.5rem;
+    line-height: 1.56rem;
+  }
+
+  .systems-developer {
+    font-size: var(--font-size-xl);
+  }
+
+  .eu-desenho-frame-wrapper {
+    padding-bottom: 5.22rem;
+    box-sizing: border-box;
+  }
+
+  .about-me1 {
+    font-size: var(--font-size-5xl);
+    line-height: 2.33rem;
+  }
+
+  .english-course-container {
+    font-size: var(--font-size-xl);
+  }
+
+  .hi-im-gustavo {
+    font-size: var(--font-size-xl);
+  }
+
+  .my-current-professional-container {
+    font-size: var(--font-size-xl);
+  }
+
+  .frameskills {
+    gap: var(--gap-6xl);
+  }
+
+  .skills1 {
+    font-size: var(--font-size-5xl);
+    line-height: 2.33rem;
+  }
+
+  .frame-flutter {
+    max-width: calc(100% - 3px);
+  }
+
+  .html-css-react-container {
+    font-size: var(--font-size-xl);
+  }
+
+  .java-c-python-container {
+    font-size: var(--font-size-xl);
+  }
+
+  .contact2 {
+    font-size: var(--font-size-5xl);
+    line-height: 2.33rem;
+  }
+
+  .background-contact {
+    gap: 1.94rem;
+    padding-top: 2.94rem;
+    padding-bottom: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+
+  .portfolio {
+    gap: 1.89rem;
+  }
+}
